@@ -10,7 +10,7 @@ this was created by modifing [remark-math](https://github.com/remarkjs/remark-ma
 [npm][]:
 
 ```sh
-npm install remark-smiles
+npm install remark-smiles --save
 ```
 
 ## Use
