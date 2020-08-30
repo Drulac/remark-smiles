@@ -33,7 +33,7 @@
   "dependencies": {
     "rehype-document": "^5.1.0",
     "rehype-format": "^3.1.0",
-    "rehype-smiles": "^4.0.0",
+    "rehype-smiles": "^1.0.1",
     "rehype-stringify": "^8.0.0",
     "remark-parse": "^8.0.3",
     "remark-rehype": "^7.0.0",

@@ -95,6 +95,8 @@ Always be wary of user input and use [`rehype-sanitize`][rehype-sanitize].
 
 <!-- Definitions -->
 
-[size]: https://bundlephobia.com/result?p=remark-math
-
 [npm]: https://docs.npmjs.com/cli/install
+
+[xss]: https://en.wikipedia.org/wiki/Cross-site_scripting
+
+[rehype-sanitize]: https://github.com/rehypejs/rehype-sanitize
