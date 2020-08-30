@@ -1,7 +1,7 @@
 # remark-smiles
 remark tokenizer for SMILES chemical syntaxe
 
-[remark-math](https://github.com/remarkjs/remark/) plugin to parse and stringify SMILES molecules syntax.
+[remark](https://github.com/remarkjs/remark/) plugin to parse and stringify SMILES molecules syntax.
 
 this was created by modifing [remark-math](https://github.com/remarkjs/remark-math/)
 
