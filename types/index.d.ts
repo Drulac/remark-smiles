@@ -1,13 +1,13 @@
 import {Plugin} from 'unified' // eslint-disable-line import/no-extraneous-dependencies
 
-declare namespace remarkMath {
-  interface RemarkMathOptions {
-    inlineMathDouble?: boolean
+declare namespace remarkSmiles {
+  interface RemarkSmilesOptions {
+    inlineSmilesDouble?: boolean
   }
 
-  type Math = Plugin<[RemarkMathOptions?]>
+  type Smiles = Plugin<[RemarkSmilesOptions?]>
 }
 
-declare const remarkMath: remarkMath.Math
+declare const remarkSmiles: remarkSmiles.Smiles
 
-export = remarkMath
+export = remarkSmiles

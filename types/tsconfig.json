@@ -3,7 +3,7 @@
     "lib": ["es2015", "dom"],
     "strict": true,
     "baseUrl": ".",
-    "paths": {"remark-math": ["."]},
+    "paths": {"remark-smiles": ["."]},
     "esModuleInterop": true
   }
 }

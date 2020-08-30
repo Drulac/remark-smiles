@@ -1,11 +1,11 @@
 import unified from 'unified' // eslint-disable-line import/no-extraneous-dependencies
-import math from 'remark-math'
+import smiles from 'remark-smiles'
 
 // $ExpectType Processor<Settings>
-unified().use(math)
+unified().use(smiles)
 // $ExpectType Processor<Settings>
-unified().use(math, {inlineMathDouble: true})
+unified().use(smiles, {inlineSmilesDouble: true})
 // $ExpectError
-unified().use(math, {inlineMathDouble: 3})
+unified().use(smiles, {inlineSmilesDouble: 3})
 // $ExpectError
-unified().use(math, {invalidProp: true})
+unified().use(smiles, {invalidProp: true})
